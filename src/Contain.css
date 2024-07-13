@@ -1,0 +1,38 @@
+.hex-clock-unit {
+    display: flex;
+    flex-direction: column;
+}
+
+.hex-row {
+    display: flex;
+    margin: -1.2em;
+}
+
+.hex {
+    width: 50px;
+    height: 67px;
+    margin: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: #3498db;
+    clip-path: polygon(50% 0%,
+            75% 25%,
+            75% 75%,
+            50% 100%,
+            25% 75%,
+            25% 25%);
+}
+
+.hex-rot {
+    margin-left: 25%;
+    width: 50px;
+    height: 57px;
+    background-color: #3498db;
+    clip-path: polygon(50% 0%,
+            75% 25%,
+            75% 75%,
+            50% 100%,
+            25% 75%,
+            25% 25%);
+    transform: rotate(90deg);
+}
